@@ -59,7 +59,11 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- Realtive numbers and full color
 vim.opt.relativenumber = true
 vim.opt.termguicolors = true
 
+-- Enable spell check z= command to use it
+vim.opt.spell = true
+vim.opt.spelllang = "en_us"
 -- vim: ts=2 sts=2 sw=2 et
