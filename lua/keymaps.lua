@@ -75,4 +75,7 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
+--exit from interactive mode
+vim.keymap.set("i", "jk", "<Esc>")
+
 -- vim: ts=2 sts=2 sw=2 et
