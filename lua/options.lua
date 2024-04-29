@@ -66,4 +66,6 @@ vim.opt.termguicolors = true
 -- Enable spell check z= command to use it
 vim.opt.spell = true
 vim.opt.spelllang = "en_us"
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
 -- vim: ts=2 sts=2 sw=2 et
