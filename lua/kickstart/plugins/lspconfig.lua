@@ -124,7 +124,7 @@ return {
 					if client and client.server_capabilities.inlayHintProvider then
 						--toggle inlay hints
 						map("<leader>ih", function()
-							vim.lsp.inlay_hint.enable(0, not vim.lsp.inlay_hint.is_enabled())
+							vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
 						end, "Toggle [I]nlay [H]ints")
 					end
 				end,
