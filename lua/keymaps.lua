@@ -77,5 +77,6 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 --exit from interactive mode
 vim.keymap.set("i", "jk", "<Esc>")
+vim.keymap.set("i", "kj", "<Esc>")
 
 -- vim: ts=2 sts=2 sw=2 et
